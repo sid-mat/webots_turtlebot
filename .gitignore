@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# ROS2 / colcon
+build/
+install/
+log/
+
+# VS Code
+.vscode/
+
+# YOLO / ML training outputs
+runs/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Dataset folders
+arrow_dataset/
+ball_dataset/
+converted_images/
+train/
+valid/
+test/
+data.yaml
+
+# Videos / images
+*.MOV
+*.mp4
+*.avi
+*.mkv
+*.HEIC
+*.jpg
+*.jpeg
+*.png
+
+# OS files
+.DS_Store
+Thumbs.db

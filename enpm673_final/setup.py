@@ -18,7 +18,7 @@ setup(
     install_requires=['setuptools'],
     entry_points={
         'console_scripts': [
-            'final_node = enpm673_final.main_node:main',
+            'final_node = enpm673_final.perception_node:main',
         ],
     },
 )
